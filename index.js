@@ -1,7 +1,7 @@
 const express = require(`express`);
 const storeDB = require(`./store.json`);
 const moment = require(`moment`);
-const inventoryRouter = require('./routes/api/inventory');
+const stockRouter = require('./routes/api/stock');
 
 // Init express
 const app = express();
@@ -17,9 +17,8 @@ const logger = (req, res, next) => {
 app.use(logger);
 app.use(express.json());
 
-
-// Inventory routes
-app.use('/api/inventory', inventoryRouter);
+// Stock routes
+app.use('/api/stock', stockRouter);
 
 
 

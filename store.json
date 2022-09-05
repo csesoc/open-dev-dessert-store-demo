@@ -1,24 +1,79 @@
-{
-    "Ice-cream": [
-        {
-            "id": 1,
-            "name": "Mango Ice-cream",
-            "price": 5.3,
-            "volume": 100
-        },
-        {
-            "id": 2,
-            "name": "Chocolate Ice-cream",
-            "price": 6.7,
-            "volume": 100
-        },
-        {
-            "id": 3,
-            "name": "Matcha Ice-cream",
-            "price": 4.4,
-            "volume": 100
-        }
-    ]
-
-    
-}
+[
+    {
+        "name": "chocolate chip cookie dough",
+        "category": "ice-cream",
+        "description": "ice cream with chocolate chip and bits of cookie dough",
+        "price": 5.35,
+        "stock": 100
+    },
+    {
+        "name": "caramel delight",
+        "category": "ice-cream",
+        "description": "caramel ice cream with pieces of caramel",
+        "price": 5.25,
+        "stock": 89
+    },
+    {
+        "name": "berry blast",
+        "category": "ice-cream",
+        "description": "strawberry, blueberry, raspberry, blackberry, boysenberry ice cream",
+        "price": 5.30,
+        "stock": 12
+    },
+    {
+        "name": "classic vanilla",
+        "category": "milkshake",
+        "description": "thick and creamy vanilla milkshake",
+        "price": 6.00,
+        "stock": 34
+    },
+    {
+        "name": "mad mint choc",
+        "category": "milkshake",
+        "description": "mint chocolate milkshake with a twist",
+        "price": 6.50,
+        "stock": 122
+    },
+    {
+        "name": "banana not split",
+        "category": "milkshake",
+        "description": "banana split but a milkshake",
+        "price": 6.99,
+        "stock": 23
+    },
+    {
+        "name": "cappucino",
+        "category": "coffee",
+        "description": "asdfas",
+        "price": 4.02,
+        "stock": 32
+    }, 
+    {
+        "name": "espresso",
+        "category": "coffee",
+        "description": "asdfas",
+        "price": 4.03,
+        "stock": 123
+    },
+    {
+        "name": "latte",
+        "category": "coffee",
+        "description": "asdfas",
+        "price": 4.04,
+        "stock": 11
+    },
+    {
+        "name": "mocha",
+        "category": "coffee",
+        "description": "asdfas",
+        "price": 4.06,
+        "stock": 55
+    },
+    {
+        "name": "flat white",
+        "category": "coffee",
+        "description": "asdfas",
+        "price": 4.07,
+        "stock": 23
+    }
+]
