@@ -17,21 +17,21 @@
         "name": "berry blast",
         "category": "ice-cream",
         "description": "strawberry, blueberry, raspberry, blackberry, boysenberry ice cream",
-        "price": 5.30,
+        "price": 5.3,
         "stock": 12
     },
     {
         "name": "classic vanilla",
         "category": "milkshake",
         "description": "thick and creamy vanilla milkshake",
-        "price": 6.00,
+        "price": 6,
         "stock": 34
     },
     {
         "name": "mad mint choc",
         "category": "milkshake",
         "description": "mint chocolate milkshake with a twist",
-        "price": 6.50,
+        "price": 6.5,
         "stock": 122
     },
     {
@@ -47,7 +47,7 @@
         "description": "asdfas",
         "price": 4.02,
         "stock": 32
-    }, 
+    },
     {
         "name": "espresso",
         "category": "coffee",
@@ -60,7 +60,7 @@
         "category": "coffee",
         "description": "asdfas",
         "price": 4.04,
-        "stock": 11
+        "stock": null
     },
     {
         "name": "mocha",

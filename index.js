@@ -16,6 +16,7 @@ const logger = (req, res, next) => {
 // Init middleware
 app.use(logger);
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // Stock routes
 app.use('/api/stock', stockRouter);
