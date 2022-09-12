@@ -2,6 +2,7 @@ const express = require(`express`);
 const storeDB = require(`./store.json`);
 const moment = require(`moment`);
 const stockRouter = require('./routes/api/stock');
+const db = require("./db.js")
 
 // Init express
 const app = express();
@@ -20,10 +21,11 @@ app.use(express.json());
 // Stock routes
 app.use('/api/stock', stockRouter);
 
-
+// Connect to database
+db.connectToServer(() =>{
+    console.log("connected to database")
+})
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-
-
